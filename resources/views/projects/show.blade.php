@@ -4,11 +4,11 @@
 <div class="px-4 border rounded bg-blue-200 ">
         <div>id: {{$project->id}}</div>
 <h1 class="font-bold capitalize">{{$project->title}}</h1>
-<div class="content">{{$project->description}</div>
+<div class="content">{{$project->description}}</div>
 <div>   
 <a href="/projects/{{$project->id}}/edit">Edit </a>
 </div>
-<div  class=" pb-2">Crated at: {{$prokect->created_at}}</div>
+<div  class=" pb-2">Crated at: {{$project->created_at}}</div>
 <div  class=" pb-2"> Updated at: {{$project->updated_at}}</div>
 @if ($project->tasks->count())
 

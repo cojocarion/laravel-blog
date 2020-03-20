@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/cojocarion">GitHub</a>
                     <p> Try your url link with /projects to access blog</p>
                 </div>
             </div>
